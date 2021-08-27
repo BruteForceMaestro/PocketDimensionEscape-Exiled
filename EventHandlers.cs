@@ -10,7 +10,6 @@ namespace PocketDimensionEscape_Exiled
         {
             foreach (Player player in Player.List)
             {
-                Log.Info(player.Role);
                 if (player.Role == RoleType.Scp106){
                     player.ShowHint("Someone escaped your pocket dimension!");
                     break;
